@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+    docker-web-service:
+        image: devopsdockeruh/simple-web-service:ubuntu
+        volumes:
+            - ./text.log:/usr/src/app/text.log
+        container_name: service-container

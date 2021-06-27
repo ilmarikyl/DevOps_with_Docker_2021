@@ -1,0 +1,7 @@
+version: '3.5'
+
+services:
+    devops-web-service:
+        image: devopsdockeruh/simple-web-service
+        ports:
+          - 80:80
