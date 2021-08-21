@@ -1,2 +1,10 @@
 _*
 material-applications
+part2/2_11/all_verb_forms.txt
+part2/2_11/italian_verb_analyzer.hfst
+part2/2_11/italian_verbs.lexc
+part2/2_11/requirements.txt
+part2/2_11/textui_italyzer.py
+part2/2_11/translator.py
+part2/2_11/wordsuggester.py
+part2/2_11/xfst_italia.xfst
