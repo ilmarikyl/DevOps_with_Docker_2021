@@ -1,0 +1,7 @@
+version: "3"
+services:
+  app:
+    build: .
+    container_name: DevOps_with_Docker_2021_ex_3_2
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
