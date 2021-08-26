@@ -1,4 +1,3 @@
-# FROM ubuntu:18.04
 FROM node:lts-alpine3.14 as build-stage
 
 WORKDIR /usr/src/app
