@@ -9,7 +9,7 @@ COPY . .
 ENV REACT_APP_BACKEND_URL=http://127.0.0.1:8080
 
 RUN npm install && \
-	npm run build
+    npm run build
 
 FROM node:lts-alpine3.14
 
